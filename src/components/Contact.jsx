@@ -13,17 +13,17 @@ const Contact = () => {
       sm:overflow-hidden'>
         <div className='absolute -left-20 top-0 hidden h-full w-72 overflow-hidden
         sm:block lg:left-20 lg:w-96 '>
-          <ImageClipBox src={`${import.meta.env.BASE_URL}/img/contact-1.webp `}
+          <ImageClipBox src={`${import.meta.env.BASE_URL}img/contact-1.webp`}
           clipClass="contact-clip-path-1" />
-          <ImageClipBox src={`${import.meta.env.BASE_URL}/img/contact-2.webp `}
+          <ImageClipBox src={`${import.meta.env.BASE_URL}img/contact-2.webp`}
           clipClass="contact-clip-path-2 translate-y-60 lg:translate-y-40" />
         </div>
 
         <div className='absolute -top-40 left-20 w-60 md:top-60 
         md:left-auto md:right-10 lg:w-80 md:mix-blend-difference'>
-          <ImageClipBox src={`${import.meta.env.BASE_URL}/img/swordman-partial.webp `}
+          <ImageClipBox src={`${import.meta.env.BASE_URL}img/swordman-partial.webp`}
           clipClass="absolute md:scale-125 " />
-          <ImageClipBox src={`${import.meta.env.BASE_URL}/img/swordman.webp `}
+          <ImageClipBox src={`${import.meta.env.BASE_URL}img/swordman.webp`}
           clipClass="sword-man-clip-path md:scale-125 " />
         </div>
 
